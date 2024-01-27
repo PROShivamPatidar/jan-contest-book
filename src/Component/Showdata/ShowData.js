@@ -1,4 +1,5 @@
 import React from "react";
+import "./showdata.css"
 
 const ShowData = ({ apiData, setSelected }) => {
   return (
@@ -11,7 +12,7 @@ const ShowData = ({ apiData, setSelected }) => {
               className="card"
               key={item.kind + index}
             >
-              <div>
+              <div className="display">
                 {item.volumeInfo.imageLinks.thumbnail && (
                   <img src={item.volumeInfo.imageLinks.thumbnail} alt="" />
                 )}

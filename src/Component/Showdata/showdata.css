@@ -1,0 +1,24 @@
+.card-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    background-color: #242121;
+  }
+  
+  .card {
+    display: flex;
+    border: 1px solid cyan;
+  }
+  
+  .card img {
+    width: 250px;
+    height: 350px;
+  }
+  .display{
+    background-color: #242121;
+  }
